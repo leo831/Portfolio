@@ -93,3 +93,74 @@ footer {
 footer a {
   text-decoration:none;
 }
+ /*Media queries for responsive page*/
+@media screen and (min-width: 600px) and (max-width: 850px){
+  header .col-2 {
+    width:21.66%;
+  }
+
+  .row .col-4 {
+    flex:1 auto;
+    width:100%;
+    flex-direction:column;
+  }
+
+  section .row {
+    flex-flow:column wrap;
+  }
+
+  section .midleitem {
+    margin-left:0;
+  }
+  .grid {
+    font-size:100%;
+    flex:1 100%;
+    padding:15px;
+  }
+  img {
+    max-width:100%;
+  }
+}
+@media screen and (max-width: 600px){
+  header .col-2 {
+    width:28.66%;
+  }
+  .row .col-4 {
+    flex:1 auto;
+    width:100%;
+    margin-bottom:20px;
+    flex-direction:column;
+    }
+  section .row {
+    flex-flow:column wrap;
+  }
+  section .midleitem {
+    margin-left:0;
+  }
+  .grid {
+    font-size:100%;
+    flex:1 100%;
+    padding:15px;
+  }
+  .col-4 {
+    order:1;
+  }
+  img {
+    max-width:100%;
+  }
+   .col-9{
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 800px){
+  .grid {
+    padding:15px;
+  }
+}
+@media screen and (max-width: 480px){
+  header .col-10 {
+    margin-left:0;
+    font-size:x-small;
+  }
+}
