@@ -66,18 +66,21 @@ section .row {
 }
 
 section .row .col-4 {
-  text-align:center;
+  text-align:left;
   padding-bottom:5px;
   background:#FFF;
 }
 .col-4 {
   width:32.7%;
 }
-
-.col-4 a {
-  color:#bcbbbb;
-  text-decoration:none;
+section .col-4 p{
+  margin-left: 10px;
+  color:#bcbbbb
 }
+section .col-4 h2{
+  margin-left: 10px;
+}
+
 section .midleitem {
   margin-left:11px;
   margin-right:11px;
